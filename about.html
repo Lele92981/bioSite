@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coach Cle</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/Championshipff.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="landing.html" class="w3-bar-item w3-button">LANDING</a>
+      <a href="hobbies.html" class="w3-bar-item w3-button"> HOBBIES</a>
+      <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="landing.html" onclick="w3_close()" class="w3-bar-item w3-button">LANDING</a>
+  <a href="hobbies.html" onclick="w3_close()" class="w3-bar-item w3-button">HOBBIES</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-text-black" style="padding:48px">
+    <span class="w3-xxlarge">CLARENCE</span><br>
+    <span class="w3-large">About.</span>
+
+  </div>
+
+</header>
+
+
+
+<!-- Promo Section - "Cle knows Fitness" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6" style="padding-bottom: 128px">
+      <h3>Cle knows Fitness.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-col m6" style="padding-bottom:64px">
+      <img class="w3-image w3-round-large" src="images/cleknowsfitness.jpg" alt="Cle knows fitness" width="700" height="394">
+    </div>
+
+    <div class="w3-row-padding w3-center" style="padding-top:128px">
+      <div class="w3-quarter">
+        <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large">Fitness Trainer</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Nutritionist</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Passion for Mentoring</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Health education</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">Personal Origins</h3>
+  <p class="w3-center w3-large">The ones who runs this company</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/Coachclechampionship.jpg" alt="Coach Cle" style="width:100%">
+        <div class="w3-container">
+          <h3>Coach Cle</h3>
+          <p class="w3-opacity">Toledo, OH</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/leah.jpg" alt="wife leah" style="width:100%">
+        <div class="w3-container">
+          <h3>Wife Leah </h3>
+          <p class="w3-opacity">Toledo, OH</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/familyfuntime.jpg" alt="daddy daughters time" style="width:100%">
+        <div class="w3-container">
+          <h3>Practicing with my daugther Caidence</h3>
+          <p class="w3-opacity">Toledo, OH</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/hoopstarsteambuilding.jpg" alt="Hoopstars Bonding Time" style="width:100%">
+        <div class="w3-container">
+          <h3>Team Bonding</h3>
+          <p class="w3-opacity">Toledo, OH</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
